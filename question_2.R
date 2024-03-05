@@ -6,6 +6,11 @@ set.seed(123)
 
 # Simulate dataset
 n <- 200
+
+age_groups <- c("18-25", "26-35", "36-45", "46-55", "56-65", "65+")
+income_groups <- c("Low", "Medium", "High")
+education_levels <- c("High School", "Bachelor's", "Master's", "PhD")
+
 data <- data.frame(
   Support = sample(c('Y', 'N'), n, replace = TRUE), 
   AgeGroup = factor(sample(age_groups, n, replace = TRUE)),
