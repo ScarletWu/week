@@ -1,8 +1,9 @@
 library(dplyr)
 library(stats)
 library(ggplot2)
-library(rstanarm)
 library(bayesplot)
+
+library(rstanarm) 
 
 set.seed(123)
 
